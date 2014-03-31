@@ -1,0 +1,13 @@
+name: BoltAndBan
+description: Adds functionality to strike player with lightning and ban him.
+author: TheKiwi5000
+database: false
+prefix: TK5-BNB
+website: http://bcsn.website.pl/kiwikiwi
+main: pl.website.bcsn.boltandban.BoltAndBan
+version: 1.0
+
+commands:
+     sban:
+      description: Strucks selected player with lightning and then bans him.
+      usage: /<command> <victim>
