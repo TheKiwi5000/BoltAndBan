@@ -24,7 +24,7 @@ public class BanningThread implements Runnable {
 
 		BoltAndBan.server.dispatchCommand(BoltAndBan.server.getConsoleSender(), "ban " + BoltAndBan.victimName);
 		BoltAndBan.server.getLogger().fine(
-				"Player " + BoltAndBan.victimName + " was banned succesfully");
+				"Player " + BoltAndBan.victimName + " was banned succesfully!");
 	}
 
 }

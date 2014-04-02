@@ -11,3 +11,4 @@ commands:
      sban:
       description: Strucks selected player with lightning and then bans him.
       usage: /<command> <victim>
+      aliases: [boltandban, thunderban]
