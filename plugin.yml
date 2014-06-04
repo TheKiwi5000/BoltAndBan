@@ -8,7 +8,11 @@ main: pl.website.bcsn.boltandban.BoltAndBan
 version: 1.0
 
 commands:
-     sban:
-      description: Strucks selected player with lightning and then bans him.
-      usage: /<command> <victim>
-      aliases: [boltandban, thunderban, superban]
+  sban:
+  description: Strucks selected player with lightning and then bans him.
+  usage: /<command> <victim>
+  aliases: [boltandban, thunderban, superban]
+permissions: 
+  bnb.sban: 
+    default: op
+    description: access /sban and aliases
