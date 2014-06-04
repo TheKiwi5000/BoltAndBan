@@ -10,7 +10,7 @@ public class BanningThread implements Runnable {
 		
 		
 		Location loc = BoltAndBan.server.getPlayerExact(BoltAndBan.victimName).getLocation();
-		System.out.println("gracz na " + loc + "ma przesrane");
+		
 		Location boltLoc = new Location(loc.getWorld(), loc.getX(), loc.getY(), loc.getZ());
 		loc.getWorld().strikeLightning(boltLoc);
 
